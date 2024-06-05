@@ -1,0 +1,14 @@
+
+  .about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about li {
+    margin-bottom: 8px;
+  }
+  
+  .about .quote {
+    font-style: italic;
+  }
+  

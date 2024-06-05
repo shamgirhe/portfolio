@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial, sans-serif';
+  box-sizing: border-box;
+}
+#root{
+  height: 100%;
+  width: 100%;
+
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  max-width: 100%;
+}
+
+#projects .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+#projects .card:hover {
+  transform: scale(1.05);
+}
+
+#skills h5 {
+  margin-bottom: 10px;
+}
+
+#skills .progress-bar {
+  background-color: #007bff;
+}
+
+/* Dark Theme Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #1f1f1f;
+}
+
+.dark-mode .card {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.dark-mode .progress-bar {
+  background-color: #5a5a5a;
+}

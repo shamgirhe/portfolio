@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Project One",
+      "description": "Description for project one.",
+      "image": "images/path_to_image1.jpg",
+      "link": "https://link_to_project_one.com"
+    },
+    {
+      "title": "Project Two",
+      "description": "Description for project two.",
+      "image": "images/path_to_image2.jpg",
+      "link": "https://link_to_project_two.com"
+    },
+    {
+      "title": "Project Three",
+      "description": "Description for project three.",
+      "image": "images/path_to_image3.jpg",
+      "link": "https://link_to_project_three.com"
+    }
+  ]
+  

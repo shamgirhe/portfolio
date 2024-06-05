@@ -1,0 +1,25 @@
+.frame {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    perspective: 1000px; /*Add perspective for 3D effect */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    /* margin-bottom: 0px; Add margin to separate logo from content */
+  }
+  
+ 
+  
+  .frame:hover {
+    transform: rotateY(15deg); /* Rotate the frame on hover */
+  }
+  
